@@ -25,7 +25,7 @@ add_action('wp_enqueue_scripts', 'reactor_ie_styles', 99);
 function reactor_register_styles() {
 	// register styles
 	wp_register_style('normalize', get_template_directory_uri() . '/library/css/normalize.css', array(), false, 'all');
-	wp_register_style('foundation', get_template_directory_uri() . '/library/css/foundation.min.css', array(), false, 'all');
+	wp_register_style('foundation', get_template_directory_uri() . '/library/css/foundation.css', array(), false, 'all');
 	wp_register_style('foundicons', get_template_directory_uri() . '/library/fonts/foundation-icons.css', array(), false, 'all');
 	wp_register_style('reactor', get_template_directory_uri() . '/library/css/reactor.css', array(), false, 'all');
 	wp_register_style('style', get_stylesheet_directory_uri() . '/style.css', array(), false, 'all');
